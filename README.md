@@ -1,3 +1,12 @@
+# Connecting USB HUB
+
+* Connect HUB data line to RPi USB port to make RPi master
+* Connect HUB USB port to RPi micro usb to power RPi
+
+See:
+
+* https://raspberrypi.stackexchange.com/questions/57606/raspberry-pi-zero-refuses-to-detect-usb-hub-tried-multiple-hubs
+* https://raspberrypi.stackexchange.com/questions/57014/does-a-usb-hub-work-with-raspberry-pi-zero
 
 # Samba
 
@@ -5,13 +14,10 @@
 
 Modify /etc/samba/smb.conf
 
-
 Add system user and samba user
-
 
     adduser joe
     smbpasswd -a joe
-
 
 See:
 
