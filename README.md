@@ -28,7 +28,16 @@ Check status with:
 
 	smbstatus
 
-# USB drive
+
+# Peripherals
+
+For gpio command:
+
+    sudo apt-get install wiringpi
+
+# Volumes, USB drives
+
+## USB drive
 
     sudo apt-get install lshw
 
@@ -38,13 +47,9 @@ Check status with:
 
     sudo mkdir /media/usbdrive_primary
 
-# Peripherals
+## Mounting
 
-For gpio command:
-
-    sudo apt-get install wiringpi
-
-# Mounting
+    sudo mount -t auto /dev/sda1 /media/usb1/
 
 fstab description in
 
